@@ -45,3 +45,7 @@ public:
         {
             cout << "Stack is Empty. " << endl;
             return;
+        }
+        cout << " Popped value: " << top->data << endl;
+        top = top->next;
+    }

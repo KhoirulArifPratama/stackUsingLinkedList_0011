@@ -33,3 +33,8 @@ public:
         cout << "Push value: " << value << endl;
         return value;
     }
+
+    bool isEmpty()
+    {
+        return top = NULL;
+    }
